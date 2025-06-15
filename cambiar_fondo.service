@@ -1,0 +1,9 @@
+[Unit]
+Description=Cambiar fondo cada 5 minutos
+
+[Service]
+Type=oneshot
+ExecStart=/home/admin/Documents/TaxisPublicidad/cambiar_fondo_pcmanfm.sh
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/admin/.Xauthority
+Environment=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
