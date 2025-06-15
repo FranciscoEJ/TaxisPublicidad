@@ -1,0 +1,10 @@
+[Unit]
+Description=Temporizador para cambiar fondo cada 1 minutos
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+Unit=cambiar_fondo.service
+
+[Install]
+WantedBy=timers.target
