@@ -2,7 +2,7 @@
 
 # Configura entorno gráfico
 export DISPLAY=:0
-export XAUTHORITY=/home/pi/.Xauthority
+export XAUTHORITY=/home/admin/.Xauthority
 export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus"
 
 WALLPAPERS="/home/admin/Documents/TaxisPublicidad/img"
