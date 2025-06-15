@@ -6,8 +6,8 @@ export XAUTHORITY=/home/pi/.Xauthority
 export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus"
 
 WALLPAPERS="/home/admin/Documents/TaxisPublicidad/img"
-LOG="/home/pi/wallpaper_cron.log"
-LAST_IMAGE_FILE="/home/pi/.ultima_imagen_usada"
+LOG="/home/admin/wallpaper_cron.log"
+LAST_IMAGE_FILE="/home/admin/.ultima_imagen_usada"
 
 echo "[INFO] Ejecutado: $(date)" >> "$LOG"
 
